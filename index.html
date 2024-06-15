@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cover">
+    <div class="slide">
+      <img src="image/bg.JPG" alt="image">
+      <div class="overlay"></div>
+    </div>
+    <header>
+      <h2>CapacityBay Survey Form</h1>
+        <div class="short-description">Thanks for taking the time to help us imporove the platform.</div>
+    </header>
+    <div class="form-cover">
+      
+      <div class="form">
+        <form action="capacitybay-form" class="allforms">
+  
+          <label for="name"></label>
+          <div class="my-name ">Name</div>
+          <input type="text" name="name" class="label">
+              
+          <label for="email"></label>
+          <div class="email">Email</div>
+          <input type="email" name="email" class="label">
+    
+              
+          <label for="age"></label>
+          <div class="age">Age (optional)</div>
+          <input type="number" name="age" id="age" class="label">
+  
+          <label for="choose"></label>
+          <div class="best-role">Which option best describes your current role.</div>
+          <select name="" id="choose-role" class="label">
+            <option value="current-role">Select Current Role</option>
+            <option value="student">Student</option>
+            <option value="full-time-job">Full Time Job</option>
+            <option value="full-time-learner">Full Time Learner</option>
+            <option value="prefer-not-say">Prefer Not Say</option>
+            <option value="other">Other</option>
+          </select>
+  
+          <div class="recommend">Would you recommend CapacityBay to a friends?</div>
+          <input type="radio" id="definite" name="choice" value="definite">
+          <label for="definite">Definitely</label><br>
+          <input type="radio" id="maybe" name="choice" value="maybe">
+          <label for="maybe">Maybe</label><br>
+          <input type="radio" id="javascript" name="choice" class="not-sure">
+          <label for="not-sure">Not Sure</label>
+  
+          <div class="favourite">What is your favourite feature of CapacityBay.</div>
+          <select name="choose" id="choose" class="label">
+            <option value="role" name="choose">Select an option</option>
+            <option value="challenges" name="choose">Challenges</option>
+            <option value="projects" name="choose">Projects</option>
+            <option value="community" name="choose">Community</option>
+            <option value="open-source" name="choose">Open Source</option>
+          </select>
+  
+          <div class="to-improve">What would you like to see improved? (check all that apply)</div>
+          <input type="checkbox" id="front-end" name="front-end" value="improve-frontend">
+          <label for="front-end">Front-end Projects</label><br>
+          <input type="checkbox" id="backend" name="backend" value="improve-backend">
+          <label for="backend"> Back-end Projects</label><br>
+          <input type="checkbox" id="data" name="data" value="improve-data">
+          <label for="data">Data Visualization</label><br>
+          <input type="checkbox" id="challenges" name="challenges" value="improve-challenges">
+          <label for="challenges">Challenges</label><br>
+          <input type="checkbox" id="open" name="open" value="improve-open">
+          <label for="open">Open Source Community</label><br>
+          <input type="checkbox" id="gitter" name="gitter" value="improve-gitter">
+          <label for="gitter">Gitter help rooms</label><br>
+          <input type="checkbox" id="video" name="video" value="improve-video">
+          <label for="video">Video</label><br>
+          <input type="checkbox" id="video" name="video" value="city-meet">
+          <label for="city-meet">City Meetups</label><br>
+          <input type="checkbox" id="wiki" name="wiki" value="wiki" >
+          <label for="wiki">Wiki</label><br>
+          <input type="checkbox" id="forum" name="forum">
+          <label for="forum">Forum</label><br>
+          <input type="checkbox" id="course" name="course" value="improve-course" class="courses">
+          <label for="course">Additional Courses</label><br>          
+  
+          <div class="comment">Any comments or suggestions?</div>
+          <label for="text"></label>
+          <textarea name="text" id="just-comment" class="label text">Drop your suggestions</textarea> 
+  
+          <div class="submit">
+            <label for="submit" id="final-submission"></label>
+            <input type="submit" class="label submit-label">
+          </div>            
+  
+        </form>
+    </div>
+        
+    
+    </div>
+</body>
+</html>
